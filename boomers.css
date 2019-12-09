@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+      background-image: url(Kitchen%20View%204.jpg);
+      background-size: 100% 100%;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: black;
+    order: 3;
+  }
+
+nav{
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+aside{
+    color: white;
+    text-align: center;
+    font-size: 20px
+    
+}
+  #main > aside {
+    background: black;
+    order: 2;
+  }
+  header, footer {
+    background: lightgrey;
+       display: flex;
+      align-content: center;
+      align-items: center;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    /*padding: 1em;*/
+  }
+
+header{
+    font-family: 'Dancing Script', cursive;
+    font-size:3em;
+    
+}
+
+#head {
+    display: flex;
+    align-content: center !important;
+    justify-content: center;
+    align-items: center;
+    background: lightgrey;
+}
+#foot {
+    display: flex;
+    align-content: center !important;
+    justify-content: center;
+    align-items: center;
+    background: lightgrey;
+}
+
+@media only screen and (max-width: 1000px) {
+    header{
+        font-size:1.5em;
+    }
+    footer{
+        font-size: 12px;
+    }
+    #main > article {
+    flex: 1;
+    order: 1;
+      background-image: url(SmallKitchen2.png);
+      background-size: 100% 100%;
+  }
+    nav{
+        text-align: center;
+        font-size: 11px;
+    }
+    aside{
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+
+.TopNav{
+    
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.TopNav li{
+    display:inline;
+}
+.TopNav{
+    display:inline-block;
+    padding:10px;
+}
+
+ul div{
+    padding 0 0px;
+    background-color:#ddd;
+    border:1px solid #00f;
+    flex-direction: column;
+}
+
+ul a:link,nav a:visited{
+    color:#fff;
+    text-decoration: none;
+    font-size:2em;
+    background-color:#222;
+    width:33%;
+    padding: 0 40px
+    
+}
+
+a, a:visited, a:active {
+  color: lightgray;
+}
+
+ul a:hover {
+    color:lightblue;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+

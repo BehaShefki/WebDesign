@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
+#photos{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    
+}
+
+
+header h1{
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 2px;
+
+font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Bitter', serif;
+    
+    font-size:5em;
+    text-align: center;
+}
+
+
+
+
+nav div{
+    padding: 0 0px;
+    background-color:#ddd;
+    border:9px;
+    border-color: gainsboro;
+}
+
+nav a:link,nav a:visited{
+    color:#fff;
+    text-decoration: none;
+    font-size:2em;
+    border: 3px gainsboro solid;
+    background-color:#222;
+    width:33%;
+    padding:  0 40px
+}
+
+nav a:hover{
+     color: black;
+     background-color:#ddd;
+}
+
+
+#photos{
+
+    border-bottom-right-radius: 3000px;
+    
+}
+#photo1,#photo2,#photo3,#photo4,#photo5,#photo6,#photo7,#photo8,#photo9{
+    background-size:cover;
+    width:270px;
+    height:270px;
+    margin:5px;
+    border:3px solid gold;
+    font-size:8em;
+    text-align: center;
+
+}
+
+
+
+/*all the images*/
+#photo1{
+    background-image:url(finalimages/fancy%20chair.jpg);  
+}
+#photo2{
+    background-image:url(finalimages/whiskeyonbar.jpg);
+}
+#photo3{
+    background-image:url(finalimages/bcigar2.jpg);
+    
+}
+#photo4{
+    background-image:url(finalimages/bourbonfancy.jpeg);
+
+}
+#photo5{
+    background-image:url(finalimages/Cigars.jpeg);
+  
+}
+#photo6{
+    background-image:url(finalimages/GentlemanJackbottle.jpg);
+  
+}
+#photo7{
+    background-image:url(finalimages/whiskeyinglass.jpg);
+    
+}
+  
+
+#photo1:hover:after{
+    content:"Fancy Chair to spice up any lounge";
+    font-size: .2em;
+   color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+    outline-color: black;
+    outline-width: thick;
+}
+#photo2:hover:after{
+    content:"Four Roses";
+    font-size: .2em;
+   color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+        outline-color: black;
+    outline-width: thick;
+}
+#photo3:hover:after{
+    content:"Knob Creek";
+    font-size: .2em;
+   color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+        outline-color: black;
+    outline-width: thick;
+}
+#photo4:hover:after{
+    content:"Bulleit";
+    font-size: .2em;
+   color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+        outline-color: black;
+    outline-width: thick;
+}
+#photo5:hover:after{
+    content:"Arturo Fuente";
+    font-size: .2em;
+   color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+        outline-color: black;
+    outline-width: thick;
+}
+#photo6:hover:after{
+    content:"Jack Daniels";
+    font-size: .2em;
+   color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+        outline-color: black;
+    outline-width: thick;
+}
+#photo7:hover:after{
+    content:"Jim Beam";
+    font-size: .2em;
+   color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+        outline-color: black;
+    outline-width: thick;
+}
+
+
+
+html { 
+  background: url(images/lounge.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+

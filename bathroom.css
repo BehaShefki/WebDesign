@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+#container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
+#photos{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    
+}
+
+
+header h1{
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 2px; 
+font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Bitter', serif;
+    
+    font-size:5em;
+    text-align: center;
+}
+
+
+
+
+nav div{
+    padding: 0 0px;
+    background-color:#ddd;
+    border:9px;
+    border-color: gainsboro;
+}
+
+nav a:link,nav a:visited{
+    color:#fff;
+    text-decoration: none;
+    font-size:2em;
+    border: 3px gainsboro solid;
+    background-color:#222;
+    width:33%;
+    padding:  0 40px
+}
+
+nav a:hover{
+     color: black;
+     background-color:#ddd;
+}
+
+
+#photos{
+
+    border-bottom-right-radius: 3000px;
+    
+}
+#photo1,#photo2,#photo3,#photo4,#photo5,#photo6,#photo7,#photo8,#photo9{
+    background-size:cover;
+    width:270px;
+    height:270px;
+    margin:5px;
+    border:3px solid gold;
+    font-size:8em;
+    text-align: center;
+}
+
+
+/*all the images*/
+#photo1{
+    background-image:url(images/blackurinal.jpg);  
+}
+#photo2{
+    background-image:url(images/urinal2.jpg);
+}
+#photo3{
+    background-image:url(images/urinal3.jpeg);
+    
+}
+#photo4{
+    background-image:url(images/toilet4.jpg);
+
+}
+#photo5{
+    background-image:url(images/toilet5.jpg);
+  
+}
+#photo6{
+    background-image:url(images/toilet6.jpg);
+  
+}
+#photo7{
+    background-image:url(images/toilet7.jpg);
+    
+}
+
+  
+
+#photo1:hover:after{
+    content:"Black Hole Urinal";
+    font-size: .2em;
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+}
+#photo2:hover:after{
+    content:"Black Urinal Perfect for any bathroom";
+    font-size: .2em;
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+}
+#photo3:hover:after{
+    content:"Mini Black Toilet Cute addition to your bathroom";
+    text-align: justify;
+    font-size: .2em;
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+}
+#photo4:hover:after{
+    content:"The Golden Toilet";
+    font-size: .2em;
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+    text-justify: auto;
+}
+#photo5:hover:after{
+    content:"Slick Throne";
+    text-align: left;
+    font-size: .2em;
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+}
+#photo6:hover:after{
+    content:"Simple Toilet Perfect for any bathroom";
+    text-align: left;
+    font-size: .2em;
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+}
+#photo7:hover:after{
+    content:"The Future Dome";
+    text-align: left;
+    font-size: .2em;
+    color: black;
+    -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+}
+
+
+
+html { 
+  background: url(images/bathroom1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+

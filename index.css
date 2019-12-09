@@ -1,0 +1,73 @@
+h1
+{
+    font-family: Arial, sans-serif;
+    color: crimson; 
+    font-size: 2em;
+}
+h2
+{
+    font-family: Arial, sans-serif;
+    color: greenyellow; 
+    font-size: 2em;
+}
+
+p
+{
+    line-height: 30px;
+    text-indent: 4em;
+    font-family: "Times New Roman", serif;
+    color: darkorange;
+}
+
+
+
+aside
+{
+    border: 2px solid #000;
+    width: 250px;
+    padding: 8px;
+    border-radius: 2em;
+    border-color: aqua;
+    
+}
+
+
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.box
+{
+    width: 300px;
+    height: auto;
+    background-color: lavenderblush;
+    text-align: center;
+    margin: 5px;
+}
+
+a
+{
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 2em;
+}
+a:link, a:visited;
+{
+    background-color: burlywood;
+    display: block;
+}
+a:hover
+{
+    background-color: darkturquoise;
+}
+li
+{
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+}
